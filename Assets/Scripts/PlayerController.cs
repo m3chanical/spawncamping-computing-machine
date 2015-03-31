@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
+	public float speed;
 	// Use this for initialization
 	void Start () {
 	
@@ -14,6 +15,9 @@ public class PlayerController : MonoBehaviour {
 	}
 	
 	void FixedUpdate() {
-		transform.position += transform.right * Time.deltaTime; 	
+		if(Input.GetKeyDown(KeyCode.A)){
+			GetComponent<Rigidbody2D>().AddForce(Vector2.right * speed * Time.deltaTime);
+			//transform.position += transform.right * Time.deltaTime; 	
+		}
 	}
 }
