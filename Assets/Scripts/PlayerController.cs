@@ -15,12 +15,6 @@ public class PlayerController : MonoBehaviour {
 	}
 	
 	void FixedUpdate() {
-		if(Input.GetKeyDown(KeyCode.A)){
-			//GetComponent<Rigidbody2D>().AddForce(Vector2.right * speed * Time.deltaTime);
-			transform.position += transform.right * Time.deltaTime; 	
-		}
-		if(Input.GetKeyDown (KeyCode.Space)){
-			GetComponent<Rigidbody2D>().AddForce (Vector2.up * speed * Time.deltaTime);
-		}
+		GetComponent<Rigidbody2D>().AddForce(Vector2.right * speed * Time.deltaTime);
 	}
 }
