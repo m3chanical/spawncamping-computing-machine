@@ -46,8 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Medieval_Warriors_Pack\Scripts\Camera16x9.cs" />
+     <Compile Include="Assets\Medieval_Warriors_Pack\Scripts\Example_Motion_Attack_Shield_Controller.cs" />
+     <Compile Include="Assets\Medieval_Warriors_Pack\Scripts\Example_Motion_Controller.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\sausage.cs" />
+     <None Include="Assets\Medieval_Warriors_Pack\About_Shield_Mode.txt" />
+     <None Include="Assets\Medieval_Warriors_Pack\Contact_Info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity5/Unity5.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
