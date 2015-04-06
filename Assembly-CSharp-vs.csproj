@@ -49,10 +49,10 @@
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\SwordAttack.cs" />
      <Compile Include="Assets\Sprites\Medieval_Warriors_Pack\Scripts\Camera16x9.cs" />
      <Compile Include="Assets\Sprites\Medieval_Warriors_Pack\Scripts\Example_Motion_Attack_Shield_Controller.cs" />
      <Compile Include="Assets\Sprites\Medieval_Warriors_Pack\Scripts\Example_Motion_Controller.cs" />
-     <Compile Include="Assets\SwordAttack.cs" />
      <Compile Include="Assets\sausage.cs" />
      <None Include="Assets\Sprites\Medieval_Warriors_Pack\About_Shield_Mode.txt" />
      <None Include="Assets\Sprites\Medieval_Warriors_Pack\Contact_Info.txt" />
